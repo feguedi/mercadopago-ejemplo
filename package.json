@@ -7,7 +7,7 @@
   "scripts": {
     "start": "node index.js",
     "dev": "nodemon -e js",
-    "test": "lab -v **/*.test.js"
+    "test": "lab tests/ -v"
   },
   "author": "Ixe Fernández",
   "license": "MIT",
