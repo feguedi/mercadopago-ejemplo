@@ -1,0 +1,24 @@
+{
+  "name": "mercadopago-ejemplo",
+  "version": "1.0.0",
+  "description": "Ejemplo de uso de la API de MercadoPago",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon -e js",
+    "test": "lab -v **/*.test.js"
+  },
+  "author": "Ixe Fernández",
+  "license": "MIT",
+  "devDependencies": {
+    "@hapi/code": "^9.0.1",
+    "@hapi/lab": "^25.0.1",
+    "nodemon": "^2.0.19"
+  },
+  "dependencies": {
+    "@hapi/hapi": "^20.2.2",
+    "axios": "^0.27.2",
+    "dotenv": "^16.0.2"
+  }
+}
